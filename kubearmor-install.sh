@@ -15,4 +15,4 @@ then
  karmor install
 fi
 echo "Congratulation! Kubearmor is Ready here."
-
+kubectl get pods -n kube-system | grep kubearmor
